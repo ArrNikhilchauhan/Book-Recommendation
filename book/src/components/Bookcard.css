@@ -1,0 +1,23 @@
+p{
+    color: wheat;
+    font-size: 24px;
+    height: 30px;
+}
+.book{
+    padding:10px;
+    width: 300px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    border: 6px solid wheat;
+    border-radius: 12px;
+    margin: 40px;
+}
+img{
+    background-size: cover;
+    width: 100%;
+    
+}
+.title{
+   gap: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+     div{
+      width: 300px;
+      height: 300px;
+      background: #000;
+     }
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction="left" scrollamount="50" style="font-size: 100px; color: crimson;">TO kaise h aap log</marquee>
+    <marquee behavior="" direction="right" scrollamount="60"> <i style="font-size: 40px;color: crimson;">Hi... I am Nikhil</i>.</marquee>
+    <marquee behavior="" direction="left" scrollamount="60"> <i style="font-size: 40px;color: crimson;">I am from Bihar.</i>.</marquee>
+    <marquee behavior="" direction="right" scrollamount="60"> <i style="font-size: 40px;color: crimson;">Cuurently i am living in Punjab.</i>.</marquee>
+    <marquee behavior="" direction="left" scrollamount="60"> <i style="font-size: 40px;color: crimson;">Here i am attending a workshop</i>.</marquee>
+    <marquee behavior="" direction="right" scrollamount="60"> <i style="font-size: 40px;color: crimson;">About Web Development</i>.</marquee>
+
+    <div id="daba"></div>
+    <button onclick="change()"> Click me</button>
+    </body>
+    <script>
+     
+      a=document.querySelector("#daba");
+  function change(){
+    
+    if(a.style.backgroundColor==="red"){
+      a.style.backgroundColor="lightblue";
+      console.log("changed")
+    }
+    else{
+      a.style.backgroundColor="red";
+    }
+  }
+    </script>
+</html>

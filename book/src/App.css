@@ -1,0 +1,10 @@
+body{
+    background: #000;
+}
+
+.list{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
